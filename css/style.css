@@ -441,6 +441,32 @@ border: 1px solid #f3525a;
 }
 
 
+.home-slider {
+	cursor: pointer;
+	padding-bottom: 40px;
+  }
+  .home-slider .tobii-zoom__icon {
+	display: none;
+  }
+  .home-slider .swiper-container .fream-phone {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	top: 0;
+	height: auto;
+	width: 230px;
+  }
+  .home-slider .swiper-container .swiper-wrapper img {
+	border-radius: 20px;
+  }
+  .home-slider .swiper-container .swiper-pagination-bullet-active {
+	opacity: 1;
+	background: #656fe0;
+  }
+  .home-slider img {
+	width: 100%;
+  }
+
 
 
 .slider-price{
